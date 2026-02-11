@@ -3,7 +3,7 @@
 Ce projet est une simulation de ransomware pédagogique réalisée dans le cadre du TP3. Il démontre les étapes critiques d'une cyberattaque : la génération de clés sécurisées, l'exfiltration de données vers un serveur distant (Kali Linux) et le chiffrement récursif de fichiers "in-place".
 
 ## Fonctionnalités
-Le script main.py est divisé en plusieurs modules correspondant aux exigences du sujet :
+Le script endgame.py est divisé en plusieurs modules correspondant aux exigences du sujet :
 
 **Vérification du Système (Partie A) :** Contrôle de la version de Python (3.8+) et installation automatique des dépendances (cryptography, paramiko).
 
@@ -28,7 +28,7 @@ Vous pouvez installer les modules manuellement ou laisser le script le faire au 
 ### 3. Exécution
 Important : Le script nécessite des privilèges d'administrateur pour créer le répertoire de clés dans /var/keys/.
 
-`sudo python3 main.py`
+`sudo python3 endgame.py`
 
 **⚠️ Précautions d'Usage**
 
@@ -39,7 +39,7 @@ Conservez toujours une copie de vos clés générées pour pouvoir déchiffrer v
 
 # 📂 Structure du Répertoire
 
-main.py : Script principal contenant toute la logique.
+endgame.py : Script principal contenant toute la logique.
 
 requirements.txt : Liste des bibliothèques Python nécessaires.
 
